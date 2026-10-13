@@ -24,7 +24,7 @@ assets/lantern.svg    Icône (lanterne pixel originale, aucun art officiel)
 Chaque texte existe en deux versions : `<span class="fr">…</span><span class="en">…</span>` (ou `<div>`). Le CSS masque la langue inactive selon `html[data-lang]`. Pour modifier un texte, changez **les deux** versions. Lien direct en anglais : `…/index.html?lang=en`.
 
 ### Ajouter plus tard les comptes créateurs / tableau de bord
-- Chaque page contient dans le menu un emplacement réservé : `<li class="nav-slot" id="nav-account" hidden>` pointant vers `compte/`. Retirez `hidden` quand l'espace créateur existe.
+- Chaque page contient dans le menu le lien « Mon compte » (`<li class="nav-slot" id="nav-account">`) vers https://compte.createminerepeat.com/ (comptes CMR, VIP Patreon, pièces CMR ; Cloudflare Worker, code dans le dépôt cmr-local, `web/comptes`). Pas de gabarit commun : modifier les 6 pages.
 - GitHub Pages ne sert que des fichiers statiques : un vrai système de comptes demandera un service externe (ex. backend séparé, Supabase/Firebase, ou authentification Xbox via un serveur à vous). Le site peut rester ici et appeler ce service.
 - L'en-tête et le pied de page sont répétés dans chaque fichier HTML (pas de gabarit) : modifiez-les partout, ou passez à un générateur (Eleventy, Jekyll) si le site grossit.
 
