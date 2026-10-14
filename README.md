@@ -9,7 +9,7 @@ HTML + CSS purs, aucune étape de compilation. Un petit script JavaScript (`asse
 
 ```
 index.html            Accueil : présentation, infos de connexion (adresse + port avec boutons Copier), guide Bedrock, modes, teaser créateurs, contact
-regles-et-prix.html   Règles et prix (page publique obligatoire ; prix indicatifs tant que la boutique n'est pas ouverte)
+regles-et-prix.html   Règles et prix (page publique obligatoire : paquets de pièces, prix en jeu, VIP)
 createurs.html        Programme créateurs (créer → soumettre → publier ; rémunération à venir)
 jeux.html             Vitrine des jeux de la communauté (vide pour l'instant ; modèle de carte en commentaire)
 confidentialite.html  Avis de confidentialité (Loi 25)
